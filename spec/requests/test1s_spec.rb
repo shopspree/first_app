@@ -1,11 +1,11 @@
 require 'spec_helper'
 
 describe "Test1s" do
-  describe "Users page" do
+  
 
-    it "should have the content 'users'" do
-      visit '/users'
-      page.should have_content('users')
+    it "should have the content 'rails'" do
+      visit '/'
+      page.should have_content('rails')
     end
-  end
+  
 end
